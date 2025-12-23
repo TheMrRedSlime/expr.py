@@ -35,7 +35,7 @@ Made using [rply](https://github.com/alex/rply/)
 ## Getting started
 You should install expr.py using `pip`:
 ```sh 
-$ pip install -U expr.py
+$ pip install -U expr.py-inf
 ```
 
 Here is a simple program to get started:
