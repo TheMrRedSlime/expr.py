@@ -8,5 +8,5 @@ from .util import *
 from .grammar import *
 from .parser import *
 
-__version__ = '0.3.0'
-__author__ = 'jay3332'
+__version__ = '0.4.0'
+__author__ = 'TheMrRedSlime'

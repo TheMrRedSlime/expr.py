@@ -18,7 +18,7 @@ with open('expr/__init__.py') as f:
             r'^__author__\s*=\s*[\'"]([^\'"]*)[\'"]', r, re.M
         ).group(1)
     except AttributeError:
-        author = 'jay3332'
+        author = 'TheMrRedSlime'
 
 
 with open('README.md', encoding='utf-8') as f:
@@ -26,11 +26,11 @@ with open('README.md', encoding='utf-8') as f:
 
 
 setup(
-    name='expr.py',
+    name='expr.py-inf',
     author=author,
-    url='https://github.com/jay3332/expr.py',
+    url='https://github.com/TheMrRedSlime/expr.py-inf',
     project_urls={
-        "Issue tracker": "https://github.com/jay3332/expr.py/issues",
+        "Issue tracker": "https://github.com/TheMrRedSlime/expr.py-inf",
     },
     version=version,
     packages=[
