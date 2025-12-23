@@ -1,4 +1,5 @@
 from decimal import Decimal
+import multiprocessing
 from typing import Optional, Tuple, Type, TypeVar, Union
 
 from .parser import Parser
@@ -16,7 +17,7 @@ __all__: Tuple[str, ...] = (
 state: Optional[Parser] = None
 
 
-def evaluate(expr: str, max_safe_number_input=float('inf'), max_exponent_input=float('inf'), max_factorial_input=float('inf'), /, *, cls: Type[C] = Decimal, **kwargs) -> C:
+def evaluate(expr: str, max_safe_number_input: float = float('inf'), max_exponent_input: float = float('inf'), max_factorial_input: float = float('inf'), /, *, cls: Type[C] = Decimal, **kwargs) -> C:
     global state
 
     if not state:
